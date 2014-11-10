@@ -1,0 +1,52 @@
+
+
+1.
+Use of diff command
+command syntax:
+>diff -u oldfile newfile
+
+What you get: a series of short lines some prepended by - signs and some prepended by + signs.
+A line with a - sign refers to a line in the old file that has been changed or deleted in the new 
+version. A line with a + sign refers to a line in the new file that has been changed or added in the new version.
+
+2.
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having access to older versions of a program that ypu wrote could be invaluable, for instance, to undo mistakes that you may make in later versions. You might sometimes want to revert to an older version that you know worked in a certain way, and you want to go back and see how that one worked. Having access to previous versions will help. 
+
+3.
+What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google docs does?
+
+By manually committing, you can better decide the types of changes accompanying each version. For instance, you could decide to commit functional changes in your program, or when a change of strategy (iteration vs. ) happens, or you corrected typos. This process can isolate commits to small logical units of changes in your program, making the changes easier to trace. One drawback of this manual commit is the need to be vigilant to make your commits as needed, rather than feeling safe in automatic saves.
+
+In the case of automatic saving/commits, the changes between successive revisions may not follow any logical progression in your program. Such saves could be time-based or size changes, neither of which may directly relate to evolution of the program logic. Although useful, such version histories may become hard to interpret.
+
+4.
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git has the notion of a collection of files functioning together. So you commit, all the files associated with that application/project at that time is updated, giving a snapshot of the application at that time. This allows you to see commits as a successive progression of your development of the project. You can go back and forth between the states of the project at different stages when the commits were made. 
+
+5.
+How can you use the commands git log and git diff to view the history of files?
+
+>git log
+gives you a list of commits with date, author into, signature and commit message. 
+>git diff s1 s2 
+lists the differences between the two commits (with signatures s1 and s2)
+
+To make it easier to read the output of git diff you can set 
+>git config --global color.ui auto
+This will display color coded lines of changes when you do "git diff"
+
+6.
+How might using version control make you more confident to make changes that could break something?
+
+Since git keeps a snapshot of the entire application at eat commit point, you can always go back to
+a previous state from the current state (or any other state). So breaking an application by trying
+a new idea is not permanently damaging, since you can revert to the previous unbroken version. This
+facility makes it possible to confidently try new things.
+
+ 
+
+
