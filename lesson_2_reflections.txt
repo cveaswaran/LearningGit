@@ -22,6 +22,12 @@ What are some situations when branches would be helpful in keeping your history 
 If you want to make experimental changes without affecting the main code and logic, you could create a branch, checkout the branch, and make modifications. These modifications only affect the currently checkout branch, leaving the original master (and other branches if you had any) untouched. 
 
 
+5. 
+How do the diagrams help you visualize the branch structure?
+
+Diagrams represent each commit as a node. You can visualize the commit order or history through a tree diagram. By following the nodes through the arrows, you can see unreachable commits.
+
+
 
 
 
