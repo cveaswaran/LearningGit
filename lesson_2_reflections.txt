@@ -34,6 +34,15 @@ What is the result of merging two branches together? Why do we represent it in t
 Merging two branches combines the commits made in each branch. We represent this as a single new node, with two back arrows going to the latest nodes of each branch. This signifies that from the merged node you can access commits done in both branches sequentially in time-stamp order.
 
 
+7. 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging allows changes made in multiple branches that do not produce conflicts to be integrated into a single branch without manual editing. This is very useful, for instance, when multiple people work on different parts of a program, or different people add separate functionalities to a program. 
+
+
+
+
+
 
 
  
