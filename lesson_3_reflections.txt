@@ -9,3 +9,13 @@ Multiple people can work on the same set of files by pulling rmote files, making
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Manual pull lets you decide when you want to bring in remote changes into your branch(es). If git is automatically updating your local repository in response to change in the remote, you really have no control on what and when changes happen to your repo. This could lead to unexpected results. 
+
+
+3.
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+"fork"ing is the process of creating a copy of a repo on GitHub. For example, you can fork someone else's public repository. Or you can for your own repo.  forking is a process strictly limited to GitHub.
+When you create a repo, you start with a master "branch". If you now want to test an experimental feature, or test out a new idea, without changing the master, you can create a "branch". "branching" is a strictly local process. commits you make in the branch doesn't affect the master until you merge the new branch with the master.
+"cloning" a repository is the process of creating a copy of a remore repo in a local machine, or creating a copy of a repo on the same local machine. Cloning is done most often when you want to work on files in a  remote repo: you clone the remote repo to your local machine, make changes locally, and push the changes back to the remote.
+
+
