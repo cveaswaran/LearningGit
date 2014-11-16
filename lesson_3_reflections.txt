@@ -18,4 +18,7 @@ Describe the differences between forks, clones, and branches. When would you use
 When you create a repo, you start with a master "branch". If you now want to test an experimental feature, or test out a new idea, without changing the master, you can create a "branch". "branching" is a strictly local process. commits you make in the branch doesn't affect the master until you merge the new branch with the master.
 "cloning" a repository is the process of creating a copy of a remore repo in a local machine, or creating a copy of a repo on the same local machine. Cloning is done most often when you want to work on files in a  remote repo: you clone the remote repo to your local machine, make changes locally, and push the changes back to the remote.
 
+4.
+What is the benefit of having a copy of the last known state of the remote stored locally?
 
+Allows you to work on the last known version, even though you are not connected to the network, for example, whe traveling. 
