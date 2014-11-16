@@ -22,3 +22,9 @@ When you create a repo, you start with a master "branch". If you now want to tes
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 Allows you to work on the last known version, even though you are not connected to the network, for example, whe traveling. 
+
+
+5.
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without Git/GitHub, collaboration usually involves exchanging files between collaborators or placing them in centrtal cloud locations. In these cases tracking changes made by different  people becomes a nightmare. 
