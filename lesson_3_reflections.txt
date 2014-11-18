@@ -1,3 +1,4 @@
+Lesson 3 Reflections
 
 
 1.
@@ -28,3 +29,10 @@ Allows you to work on the last known version, even though you are not connected 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 Without Git/GitHub, collaboration usually involves exchanging files between collaborators or placing them in centrtal cloud locations. In these cases tracking changes made by different  people becomes a nightmare. 
+
+6.
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Branching is useful when you want to try out a new idea, without affecting the work so far committed, say on a master. In this case, you can create a new branch, perform necessary modifications and commits on this branch, and later when you are ready to share, push the branch to GitHub for comments from others or merge into the main branch. This allows you to optionally stop working on the new branch, come back and work on the master branch again, and switch back to the other branch. This branching/merging works great in a collaborative environment, even though it is more involved than using a single master branch. For single-person work, it is probably easier to work on a single branch.  
+
+
